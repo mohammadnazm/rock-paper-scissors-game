@@ -13,10 +13,38 @@ const Game = ({ score, myChoice, setScore }) => {
     newHousePick()
   }, [])
 
+  const Result = () => {
+    if (myChoice === "rock" && house === "scissors") {
+      setPlayerWin("win")
+      setScore(score + 1)
+    } else if (myChoice === "rock" && house === "paper") {
+      setPlayerWin("lose")
+      setScore(score - 1)
+    } else if (myChoice === "scissors" && house === "paper") {
+      setPlayerWin("win")
+      setScore(score + 1)
+    } else if (myChoice === "scissors" && house === "rock") {
+      setPlayerWin("lose")
+      setScore(score - 1)
+    } else if (myChoice === "paper" && house === "rock") {
+      setPlayerWin("win")
+      setScore(score + 1)
+    } else if (myChoice === "paper" && house === "scissors") {
+      setPlayerWin("lose")
+      setScore(score - 1)
+    } else {
+      setPlayerWin("draw")
+    }
+  }
+
   return (
     <div className="game">
       my choice: {myChoice}
       House choice: {house}
+      Result:
+      {playerWin == "win" && <h2>You Win</h2>}
+      {playerWin == "lose" && <h2>You Lose</h2>}
+      {playerWin == "draw" && <h2>Draw</h2>}
     </div>
   )
 }
