@@ -3,21 +3,17 @@ import Header from "./components/Header"
 import Play from "./components/Play"
 import Footer from "./components/Footer"
 import Game from "./components/Game"
-import { Switch, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 
 const App = () => {
   return (
     <>
       <div className="container">
         <Header />
-        <Switch>
-          <Route exact path="/">
-            <Play />
-          </Route>
-          <Route path="/game">
-            <Game />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Play />} />
+          <Route path="/game" element={<Game />} />
+        </Routes>
       </div>
       <Footer />
     </>

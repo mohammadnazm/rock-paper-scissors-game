@@ -15,13 +15,13 @@
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.1"
+    "react-router-dom": "^6.8.2"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
-    "parcel-bundler": "^1.12.5",
+    "parcel-bundler": "^1.8.1",
     "prettier": "^3.0.0"
   }
 }

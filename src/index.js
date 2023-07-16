@@ -1,13 +1,13 @@
 import React from "react"
 import { BrowserRouter as Router } from "react-router-dom"
-import ReactDOM from "react-dom"
+import { createRoot } from "react-dom/client"
 import App from "./App"
 import "./styles.scss"
 
-var mountNode = document.getElementById("app")
-ReactDOM.render(
+const container = document.getElementById("app")
+const root = createRoot(container)
+root.render(
   <Router>
     <App />
   </Router>,
-  mountNode,
 )
