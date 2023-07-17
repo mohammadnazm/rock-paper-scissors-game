@@ -53,7 +53,7 @@ const Game = ({ score, myChoice, setScore }) => {
             <Link to="/" className="play-again" onClick={() => setHouse()}>
               Play Again
             </Link>
-          </div>
+          </div>   
         )}
         {playerWin == "lose" && (
           <div className="result__play">
