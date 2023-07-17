@@ -12,7 +12,8 @@ const Modal = () => {
         </div>
         <img src="../images/image-rules.svg" alt="Rules" srcset="" />
       </div>
-    </div>
+    </div>,
+    document.getElementById("modal")
   )
 }
 
