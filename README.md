@@ -6,7 +6,7 @@ Rock Paper Scissors is a hand game played with three shapes: rock, paper, and sc
 
 ## Installation
 
-1. `git clone https://github.com/mohammadnazm/quiz-app.git`
+1. `git clone https://github.com/mohammadnazm/stop-watch-app.git`
 
 2. `cd rock-paper-scissors-game`
 
