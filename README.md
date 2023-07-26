@@ -2,7 +2,7 @@
 
 Rock Paper Scissors is a hand game played with three shapes: rock, paper, and scissors. Each body beats one and is hit by another.
 
-![media io_BGQktVXh](https://github.com/mohammadnazm/rock-paper-scissors-game/assets/63538356/bcc71ec7-5134-4bc1-9626-3fc2db2511df)
+![ezgif com-gif-maker (4)](https://github.com/mohammadnazm/rock-paper-scissors-game/assets/63538356/ac1c017c-9b61-4a72-be7a-dfc457b3a7ce)
 
 ## Installation
 
